@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Todo.css";
-import { auth, db } from "../LoginSignup/Firebase";
+import { auth, db } from "./firebase";
 import { signOut } from "firebase/auth";
 import { ref, set, push, onValue, remove, update } from "firebase/database";
 

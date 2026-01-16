@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { onAuthStateChanged } from "firebase/auth";
+import { useEffect, useState } from 'react';
+import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from "./Components/LoginSignup/Firebase";
 
 import LoginSignup from "./Components/LoginSignup/Loginsignup";

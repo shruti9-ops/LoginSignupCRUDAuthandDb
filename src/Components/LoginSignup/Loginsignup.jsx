@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./LoginSignup.css";
-import { auth, db } from "./Firebase";
+import { auth, db } from "./firebase";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword
